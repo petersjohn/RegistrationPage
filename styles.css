@@ -3,34 +3,43 @@ box-sizing: border-box;
 }
 
 body{
-    background-color: dodgerblue;
+    background-color: #64b7ff;
     font-family: Roboto, sans-serif;
 }
 
-h1{ text-align: justify;
+h1{ text-align: left;
     margin: 10px;
     width: 90%;
-    padding-left: ;
+    padding-left:10px;
 }
 
 nav {
     position: fixed;
     top: 0;
     left: 0;
+    height: 100px;
     width: 100vw;
     background-color: white;
+    border-bottom:5px groove lightgray;
+    
+    
+
 }
 
 .nav-link{
     float: right;
     color: white;
-    margin: 5px;
+    margin: 30px;
     position: relative;
     right: 0;
-    background-color: blue;
+    background-color: rgb(0,128,255);
     text-decoration: none;
-    padding: 5px;
+    padding: 10px 25px 10px 25px;
     border-radius: 5px;
+    font-size: 25px;
+    top:0
+    transform: translate(0,-25%);
+    
        
 }
 
@@ -59,11 +68,13 @@ nav {
     background-color:blue;
     color: white;
     width: 75%;
+    font-size: 20px;
     text-align: center;
     text-decoration: none;
     display:block;
     margin: auto;
-    padding:10px
+    padding:10px;
+    border-radius: 10px;
 }
 
    
