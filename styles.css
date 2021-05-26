@@ -1,0 +1,75 @@
+html{
+box-sizing: border-box;
+}
+
+body{
+    background-color: dodgerblue;
+    font-family: Roboto, sans-serif;
+}
+
+h1{ text-align: justify;
+    margin: 10px;
+    width: 90%;
+    padding-left: ;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: white;
+}
+
+.nav-link{
+    float: right;
+    color: white;
+    margin: 5px;
+    position: relative;
+    right: 0;
+    background-color: blue;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+       
+}
+
+.form-wrapper {
+    background-color: white;
+    border-radius:  5px;
+    margin-top: 10vw;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 40vw;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+.form-input {
+    background-color: white;
+    width: 90%;
+    left: 0;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+#submit-button {
+    background-color:blue;
+    color: white;
+    width: 75%;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    margin: auto;
+    padding:10px
+}
+
+   
+img{
+ border-radius: 50%;
+ height: 100px;
+ width: 100px;
+ padding: 10px;
+}
